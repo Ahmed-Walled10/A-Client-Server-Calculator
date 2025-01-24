@@ -8,26 +8,11 @@ A lightweight TCP server that handles basic arithmetic operations over network c
 
 ---
 
-## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Running the Server](#running-the-server)
-  - [Connecting Clients](#connecting-clients)
-- [Technical Design](#technical-design)
-- [Error Handling](#error-handling)
-- [Limitations](#limitations)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## Features ✨
 - **Basic Arithmetic Operations**: 
   - Addition (`+`), Subtraction (`-`), Multiplication (`*`), Division (`/`)
 - **Network-Ready**:
-  - Listens on all interfaces (`0.0.0.0`) at port `54321`
+  - Listens to local computer at (`127.0.0.1`) at port `54321`
   - Handles multiple sequential clients (one at a time)
 - **Robust Error Handling**:
   - Invalid input formatting
