@@ -8,9 +8,6 @@ A lightweight TCP server that handles basic arithmetic operations over network c
 
 ---
 
-# Simple Calculator Client-Server Application
-
-This project implements a basic **client-server application** for performing simple arithmetic operations using Python's `socket` module. The server performs the calculations, and the client sends requests to the server.
 
 ## Features
 - **Server**: Handles multiple arithmetic operations such as addition, subtraction, multiplication, and division.
